@@ -1,0 +1,33 @@
+.cblog{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background: whitesmoke;
+    overflow: scroll;
+}
+.top{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    background-color: #fd1d4b;
+    color: white;
+}
+.title{
+    margin:50px auto 0;
+}
+input{
+    width: 400px;
+    text-align: center;
+    margin: 20px 0px;
+    border-radius: 10px;
+    background: rgb(238, 229, 229);
+    color: black;
+}
+textarea{
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    height: 200px;
+    background:rgb(238, 229, 229);
+    color: black;
+}

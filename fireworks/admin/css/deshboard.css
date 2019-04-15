@@ -1,0 +1,95 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.header{
+    font-size: 30px;
+    text-align: center;
+    position: static;
+}
+.s1{
+    color: #00d5fffd;
+}
+.s2{
+    color: #8056c9f5;
+}
+.s3{
+    color: #fd1d1dd7;
+}
+.s4{
+    color: #fcb04591;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    overflow: scroll;
+}
+.dash{
+    padding: 20px;
+    font-size: 30px;
+}
+.box{
+    border: 1px solid white;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    color: white;
+}
+td{
+    padding: 10px;
+}
+.clr{
+    background: rgb(28, 173, 28);
+}
+.clr2{
+    background: rgb(156, 28, 173);
+}
+.clr3{
+    background: rgb(173, 57, 28);
+}
+.clr4{
+    background: rgb(215, 218, 43);
+}
+.clr5{
+    background: rgb(78, 22, 209);
+}
+.clr6{
+    background: rgb(28, 173, 113);
+}
+p{
+    font-size: 30px;
+    padding: 20px;
+}
+.fa-desktop{
+    font-size: 60px;
+    padding-left: 160px;
+}
+.fa-user{
+    font-size: 60px;
+    padding-left: 160px;
+}
+.fa-database{
+    font-size: 60px;
+    padding-left: 160px;
+}
+.fa-blog{
+    font-size: 60px;
+    padding-left: 160px;
+}
+.fa-accusoft{
+    font-size: 60px;
+    padding-left: 160px;
+}
+.log{
+    position: relative;
+    left: 950px;
+}

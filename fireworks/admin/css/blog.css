@@ -1,0 +1,9 @@
+.blog{
+    padding: 30px;
+}
+.main{
+    overflow: scroll;
+}
+.blog:nth-child(even){
+    background-color: grey;
+}

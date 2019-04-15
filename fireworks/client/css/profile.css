@@ -1,0 +1,114 @@
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.s1{
+    color: #00d5fffd;
+    font-size: 25px;
+}
+.s2{
+    color: #8056c9f5;
+    font-size: 25px;
+}
+.s3{
+    color: #fd1d1dd7;
+    font-size: 25px;
+}
+.s4{
+    color: #fc9d45;
+    font-size: 25px;
+}
+.container-fluid{
+    padding: 10px;
+    font-size: 20px;
+}
+main{
+    width: 100%;
+    height: 580px;
+    overflow: scroll;
+}
+.user{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px auto 0;
+}
+.fa-user{
+    font-size: 150px;
+    color: rgb(0, 44, 54);
+}
+.uname{
+    margin: 0px auto 0;
+    font-size: 25px;
+    text-align: center;
+    background: rgb(194, 2, 194);
+    padding: 20px;
+    color: white;
+}
+#yblog{ 
+    position: relative;
+    top:-50px;
+    display: none;  
+    margin-top:50px;
+    text-align: center;
+    background: linear-gradient(#00d4ff, #096779);
+}
+.head{
+    position: relative;
+    font-size: 25px;
+    /* top: 350px; */
+    background: blue;
+    padding: 20px;
+    color: white;
+}
+.th{
+    font-size: 32px;
+    background: -webkit-linear-gradient(#833ab4, #fd1d4b,#fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#cblog{
+    display: none;
+}
+.cblog{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(#833ab4, #fd1d4b,#fcb045);
+}
+.top{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    background-color: #fd1d4b;
+    color: white;
+}
+.title{
+    margin:50px auto 0;
+}
+input{
+    width: 400px;
+    text-align: center;
+    margin: 20px 0px;
+    border-radius: 10px;
+    background: transparent;
+    color: whitesmoke;
+}
+textarea{
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    height: 200px;
+    background: transparent;
+    color: whitesmoke;
+}

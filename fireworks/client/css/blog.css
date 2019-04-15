@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 550px;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.main{
+    width: 100%;
+    height: 610px;
+    overflow: scroll;
+}
+.header{
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    position: static;
+}
+.s1{
+    color: #00d5fffd;
+}
+.s2{
+    color: #8056c9f5;
+}
+.s3{
+    color: #fd1d1dd7;
+}
+.s4{
+    color: #fc9d45;
+}
+.profile{
+    width: 250px;
+    margin-left: 0px;
+    margin-right: 20px;
+    height: 600px;
+    background-color: whitesmoke;
+    border: .1px solid white;
+    margin-top: 0px;
+    position: static;
+}
+.blog{
+    width: 800px ;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    margin-top: 0px;
+    height: 600px;
+}
+.notify{
+    margin-top: 0px;
+    width: 250px;
+    margin-right: 0px;
+    margin-left: 20px;
+    height: 600px;
+    background-color: whitesmoke;
+    border: .1px solid white;
+    overflow: scroll;
+}
+.fa-user{
+    color: rgb(6, 26, 65);
+    font-size: 70px;
+    margin: 30px;
+    border: 1px solid rgb(6, 26, 65);
+    background: grey;
+    border-radius: 50%;
+    padding: 10px;
+}
+.uname{
+    font-size: 20px;
+}
+.bloghead{
+    padding: 15px;
+    position: static;
+    font: 20px;
+    background: white;
+}
+.blogcon{
+    width: 100%;
+    height: 550px;
+    overflow: scroll;
+    padding: 30px 30px;
+}
+.bhead{
+    background-color: blue;
+    color: white ;
+}
+.news{
+    padding: 20px;
+    margin: 20px;
+}
+.th{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+.td{
+    text-align: center;
+    color: rgb(105, 8, 105);
+}
+a{
+    font-size: 20px;
+    color: #024653fd;
+}
+a:hover{
+    text-decoration: none;
+}
